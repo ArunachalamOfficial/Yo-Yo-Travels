@@ -1,0 +1,382 @@
+
+<html>
+<head>
+	<title>Traveller Is The Best Job</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<meta name="viewpoint" content="width-device-width,initial-scale=1.0">
+	<link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+
+<style>
+
+
+input[type=text], input[type=password] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 26px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+	font-size:16px;
+}
+
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 26px;
+    border: none;
+    cursor: pointer;
+    width: 90%;
+	font-size:20px;
+}
+button:hover {
+    opacity: 0.8;
+}
+
+
+.imgcontainer {
+    text-align: center;
+    margin: 12px 0 0px 0;
+    position: center;
+}
+.avatar {
+    width: 200px;
+	height:200px;
+    border-radius: 50%;
+
+}
+
+
+.modal {
+	display:none;
+    position: fixed;
+    z-index: 3;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 4% auto 15% auto;
+    border: 1px solid #888;
+    width: 40%; 
+	padding-bottom: 30px;
+}
+
+
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+.close:hover,.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+.animate {
+    animation: zoom 0.6s
+}
+@keyframes zoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+</style>
+</style>
+<body>
+
+
+
+
+<section class="header">
+	
+<div class="container">
+	<img src="image/Travel-logo-design-3.jpg" style="float: left;">
+	
+
+<button class="login-btn" onclick="document.getElementById('modal-wrapper').style.display='block'">
+login</button>
+
+<div id="modal-wrapper" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php">
+        
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('modal-wrapper').style.display='none'" class="close" title="Close PopUp">&times;</span>
+      <img src="image/1.png" alt="Avatar" class="avatar">
+      <h1 style="text-align:center; color:black; padding-top: 50px;">User Login Form</h1>
+    </div>
+
+    <div class="container">
+      <input type="text" placeholder="Enter Username" name="uname">
+      <input type="password" placeholder="Enter Password" name="psw">        
+      <button type="submit">Login</button>
+      
+      <a href="#" style="text-decoration:none; float:right; margin-right:34px; margin-top:26px;">Forgot Password ?</a>
+    </div>
+    
+  </form>
+  
+</div>
+
+</div>
+
+
+<script>
+// If user clicks anywhere outside of the modal, Modal will close
+
+var modal = document.getElementById('modal-wrapper');
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+<h1>TRAVEL FOR EXPLORE THE WORLD</h1>
+<p>Cover The Earth Before It Covers You</p>
+<div class="input-group">
+	<input type="text" class="form-control" placeholder="search country or city">
+	<div class="input-group-append">
+		<button type="button" class="input-group-text btn">Search</button>
+	</div> 
+</section>
+
+
+<section class="features">
+	<h1>Featured Destination</h1>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="feature-box">
+					<div class="feature-img">
+					<img src="image/image1.jpg">
+					<div class="price">
+						<p>5000₹ </p>
+						</div>
+							<div class="rating">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star-half-o"></i>
+								<i class="fa fa-star-o"></i>
+
+								
+								
+							</div>
+						</div>
+						<div class="feature-details">
+							<h4>Yercaud
+								Town in Tamil Nadu</h4>
+							<p>Yercaud is famous for Kiliyur Falls which is located in the Eastern Ghats' Servaroyan Hills and is best observed during and after the monsoons because it is totally dry in summer. Kiliyur Falls is about 91 metres tall and offers spectacular valley views from the summit.</p>
+							<div>
+								<span><i class="fa fa-map-marker"></i>India</span>
+								<span><i class="fa fa-sun-o"></i>4 days</span>
+								<span><i class="fa fa-moon-o"></i>3 Nights</span>
+							</div>
+				</div>
+	</div>
+</div>
+
+<div class="col-md-4">
+	<div class="feature-box">
+					<div class="feature-img">
+					<img src="image/image2.jpg">
+					<div class="price">
+						<p>5050₹ </p>
+						</div>
+							<div class="rating">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star-half-o"></i>
+								<i class="fa fa-star-o"></i>
+
+								
+								
+							</div>
+						</div>
+						<div class="feature-details">
+							<h4>Zermatt
+								Municipality in Switzerland</h4>
+							<p>Zermatt is famed as a mountaineering and ski resort throughout the Alps. Until the mid-19th century, it was predominantly an agricultural community.</p>
+							<div>
+								<span><i class="fa fa-map-marker"></i>Switzerland</span>
+								<span><i class="fa fa-sun-o"></i>4 days</span>
+								<span><i class="fa fa-moon-o"></i>3 Nights</span>
+							</div>
+				</div>
+	</div>
+</div>
+
+<div class="col-md-4">
+	<div class="feature-box">
+					<div class="feature-img">
+					<img src="image/image3.webp">
+					<div class="price">
+						<p>500$ </p>
+						</div>
+							<div class="rating">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star-half-o"></i>
+								<i class="fa fa-star-o"></i>
+
+								
+								
+							</div>
+						</div>
+						<div class="feature-details">
+							<h4>Tokyo Capital of Japan</h4>
+							<p>Tokyo is famous for Anime, electronics, manga, and video games. Akihabara is the epicenter if it all. It becomes a jungle of electric lights and colors at night, providing a sensory overload for visitors. Getting lost, window shopping, and photography are top activities here.And for everything from onsen hot springs and kabuki baths</p>
+							<div>
+								<span><i class="fa fa-map-marker"></i>Tokyo</span>
+								<span><i class="fa fa-sun-o"></i>4 days</span>
+								<span><i class="fa fa-moon-o"></i>3 Nights</span>
+							</div>
+				</div>
+	</div>
+</div>
+</div>
+</div>
+				
+
+</section>
+<section class="gallery">
+	<h1>Travelling  Gallery</h1>
+	<div class="container">
+		<div class="row">
+			<div class="row-md-3">
+				<div class="gallery-box">
+				<img src="image/image4.jpg">
+				<h4> kanyakumari</h4>
+				</div>
+			</div>
+			<div class="row-md-3">
+				<div class="gallery-box">
+				<img src="image/image5.jpg">
+				<h4>Hokkaido</h4>
+				</div>
+			</div>
+			<div class="row-md-3">
+				<div class="gallery-box">
+				<img src="image/image6.jpg">
+				<h4>Tokyo</h4>
+				</div>
+			</div>
+			<div class="row-md-3">
+				<div class="gallery-box">
+				<img src="image/image7.jpg">
+				<h4>Switzerland</h4>
+				</div>
+			</div>
+			
+		</div>
+		</div>
+		</div>
+		</div>
+		
+	</div>
+	
+</section>
+<section class="banner">
+	<div class="banner-highlights">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<h2> Get 25% on top destination</h2>
+					<p>Book your tickets brfore December Month with this discount</p>
+				</div>
+				<div class="col-md-4">
+				<button type="button" class="booking-btn">Book Now</button>
+				
+			</div>
+			</div>
+		</div>
+		
+	</div>
+	
+</section>
+<section class="users-feedback">
+	<h1>User Review</h1>
+	<div class="container" >
+	<div class="row">
+		<div class="col-md-4">
+			<div class="user-review">
+				<p>It's a very good organization.</p>
+			
+				<h5>Luffy</h5>
+				<small>Switzerland</small>
+				
+			</div>
+			<img src="image/user.jpeg">
+			
+		</div>
+		<div class="col-md-4">
+			<div class="user-review">
+				<p>It's a very good organization.</p>
+			
+				<h5>Goku</h5>
+				<small>Tokyo</small>
+				
+			</div>
+			<img src="image/user_2.jpeg">
+		</div>
+		<div class="col-md-4">
+			<div class="user-review">
+				<p>It's a very good organization.</p>
+			
+				<h5>Naruto</h5>
+				<small>Hokkaido</small>
+				
+			</div>
+			<img src="image/user_3.webp">
+		</div>
+	</div>	
+	</div>
+	
+</section>
+<section class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<img src="image/Travel-logo-design-3.jpg" class="footer-logo">
+				<p>We provide high class service to our customer.</p>
+			</div>
+			<div class="col-md-3">
+				<h4>Features</h4>
+				<p>Deals & Offers</p>
+				<p>Customer Reviews</p>
+				<p>cancelation policy</p>
+			</div>
+			<div class="col-md-3">
+				<h4>Contact</h4>
+				<p> <i class="fa fa-phone-square"></i>+91247500866</p>
+				<p> <i class="fa fa-envelope"></i>Travelsagent@gmail.com</p>
+				<p> <i class="fa fa-home"></i>Tamilnadu,Salem.</p>
+			</div>
+			<div class="col-md-3">
+				<h4>Follow Us on</h4>
+				<p> <i class="fa fa-facebook-official"></i>Facebook</p>
+				<p> <i class="fa fa-youtube-play"></i>Youtube</p>
+				<p> <i class="fa fa-twitter"></i>Twitter</p>
+			</div>
+			
+		</div><hr>
+	</div>
+</section>
+</body>
+</html>
